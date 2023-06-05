@@ -76,6 +76,7 @@ contract LendingProtocol {
     // Function to get list of lender addresses
     function getLenders() public view returns (address[] memory) {
         return lenders;
+        
     }
 
     // Function to get list of borrower addresses
